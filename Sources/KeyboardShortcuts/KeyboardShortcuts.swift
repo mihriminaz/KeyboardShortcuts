@@ -89,9 +89,9 @@ public enum KeyboardShortcuts {
 	}
 
 	private static func register(_ shortcut: Shortcut) {
-		guard !registeredShortcuts.contains(shortcut) else {
-			return
-		}
+// 		guard !registeredShortcuts.contains(shortcut) else {
+// 			return
+// 		}
 
 		CarbonKeyboardShortcuts.register(
 			shortcut,
